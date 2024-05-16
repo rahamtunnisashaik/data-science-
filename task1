@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .centered-menu {
+            text-align: center;
+        }
+
+        .menu-button {
+            font-size: 800%;
+        }
+
+        #navbar .container h1 {
+            text-align: center;
+            font-size: 300%;
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="container">
+            <h1 style="font-family: Arial, sans-serif; color: hsl(318, 100%, 43%);">welcome to cool cool cafe</h1>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="content">
+        <h2 style="font-family: Arial, sans-serif; color: #FF1493;"> Modern Drinks World</h2>
+    </div>
+
+    <div class="centered-menu">
+        <a href="menu.html" class="menu-button">ordered item</a>
+    </div>
+
+    <div class="picture">
+        <img src="C:\\tunnisa\t1.jpg" alt="Food Picture 1">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
